@@ -1,0 +1,14 @@
+.service-page-container .services-container {
+    margin-top: 67px;
+}
+
+.service-page-container .insurance-container {
+    margin-top: 83px;
+}
+
+.after-footer-row {
+    width: 100%;
+    border-bottom: 1px solid #DBC9B1;
+    max-width: 1360px;
+    margin: 44px auto 12px auto;
+}

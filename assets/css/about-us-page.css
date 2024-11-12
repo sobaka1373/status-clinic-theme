@@ -1,0 +1,267 @@
+.about-us-page-container {
+    max-width: 1360px;
+    margin: 65px auto 0 auto;
+}
+
+.about-us-page-container .about-us-text p {
+    max-width: 595px;
+    font-size: 18px;
+}
+
+.about-us-page-container .about-us-header p {
+    margin-bottom: 50px;
+}
+
+.about-us-page-container .about-us-text p {
+    margin-bottom: 55px;
+}
+
+.about-us-page-first {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.about-us-images-container .row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+.about-us-element {
+    height: 168px;
+    display: flex;
+    width: 325px;
+    border: 1px solid #DBC9B1;
+    /*margin: 0 10px;*/
+    padding: 0;
+}
+
+.about-us-element img {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+.about-us-element .text-element {
+    margin: auto;
+    text-align: center;
+}
+
+.about-us-element .text-element p {
+    margin: 0;
+}
+
+.about-us-element .text-element .main-text {
+    font-size: 48px;
+    line-height: 120%;
+}
+
+.about-us-element .text-element .second-text {
+    font-size: 22px;
+    line-height: 120%;
+    word-wrap: break-word;
+}
+
+.buttons a {
+  text-decoration: none;
+  font-weight: 400;
+  line-height: 24px;
+  font-size: 16px;
+  color: #02111B;
+  text-align: center;
+}
+.buttons a:hover {
+    cursor: pointer;
+    color: #FECC00; 
+}
+.buttons img {
+  margin-right: 15px; 
+}
+.buttons .links {
+  margin-top: 60px;
+  margin-bottom: 100px; 
+}
+.buttons .links .order {
+    margin-bottom: 20px; 
+}
+
+.virtual-tour .virtual-header p {
+    margin-top: 148px;
+    margin-bottom: 35px;
+}
+
+.virtual-tour-container {
+    display: flex;
+}
+
+.virtual-tour-container .images-right {
+    margin-left: 20px;
+}
+
+.virtual-tour-container .images-right img {
+    margin-bottom: 20px;
+}
+
+.about-us-page-container .after-footer-row {
+    margin: 11px auto 12px auto;
+}
+
+.image-element1 {
+    background-image: url(../img/about-us2.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+.image-element2 {
+    background-image: url(../img/about-us3.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+.image-element3 {
+    background-image: url(../img/about-us4.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+@media screen and (max-width: 1426px) {
+    .about-us-images-container .row {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .virtual-tour-container {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .about-us-page-container {
+        margin: 60px 20px 12px 20px;
+    }
+    .about-us-header {
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .about-us-page-first {
+        display: block;
+    }
+    .about-us-page-first .right {
+        background: url(../img/about-us1.png);
+        height: 570px;
+        background-position-x: left;
+        background-repeat: no-repeat;
+        margin-top: 20px;
+    }
+    .about-us-page-first .right img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .virtual-tour-container .left {
+        display: flex;
+    }
+
+    .virtual-tour-container .left iframe {
+        margin: 0 auto;
+    }
+
+    .virtual-tour-container .right {
+        display: flex;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .about-us-images-container .row {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .about-us-images-container .row .about-us-element {
+        width: 158px;
+        height: 158px;
+    }
+
+    .about-us-page-container .about-us-header p {
+        margin-bottom: 20px;
+    }
+
+    .about-us-page-container .about-us-text p {
+        margin-bottom: 20px;
+    }
+
+    .about-us-page-first .right {
+        /*height: 307.22px;*/
+        background-position-x: unset;
+        background-repeat: round;
+        background-repeat-y: no-repeat;
+    }
+
+    .about-us-element .text-element .main-text {
+        font-size: 32px;
+    }
+    .about-us-element .text-element .second-text {
+        font-size: 14px;
+        max-width: 150px;
+    }
+
+    .virtual-tour .virtual-header p {
+        margin-top: 60px;
+        margin-bottom: 20px;
+    }
+
+    .virtual-tour-container .left iframe {
+        height: 197px;
+    }
+
+    .virtual-tour-container .images-right {
+        margin-left: 0;
+    }
+
+    .virtual-tour-container .right img {
+        /*width: 100%;*/
+    }
+
+    .about-us-page-container .about-us-text p
+    {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .about-us-page-first .right {
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .virtual-tour-container .right img {
+        width: 100%;
+    }
+    .about-us-page-first .right {
+        height: 307.22px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .no-wrap {
+        display: block;
+    }
+    .wrap {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 799px) {
+    .no-wrap {
+        display: none;
+    }
+    .wrap {
+        display: block;
+    }
+}

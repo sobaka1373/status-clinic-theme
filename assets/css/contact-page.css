@@ -1,0 +1,162 @@
+.contact-page-container {
+    max-width: 1360px;
+    margin: 65px auto 0 auto;
+}
+
+.contact-page-container .flex {
+    display: flex;
+}
+
+.contact-page-container .contact-second-header, .contact-page-container .time, .contact-page-container .phone  {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 120%;
+    color: #000000;
+}
+
+.contact-page-container .contact-description {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #02111B;
+    max-width: 452px;
+}
+
+.contact-page-container .contact-description p {
+    margin-bottom: 51px;
+}
+
+.contact-page-container .contact-second-header p {
+    margin-bottom: 12px;
+}
+
+.contact-page-container  .contact-header p {
+    margin-bottom: 51px;
+}
+
+.contact-page-container .time-work .days p, .contact-page-container .numbers p {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #02111B;
+    margin: 0;
+}
+
+.contact-page-container .numbers p a {
+    color: #02111B;
+    text-decoration: none;
+}
+
+.contact-page-container .time-work .days {
+    display: flex;
+}
+
+.contact-page-container .time-work .days-right {
+    margin-top: 20px;
+}
+
+.contact-footer-container {
+    display: flex;
+    max-width: 452px;
+}
+
+.row-contact {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.row-contact .inst-info a, .row-contact .email-info a, .row-contact .phone-info a {
+    display: flex;
+    text-decoration: none;
+}
+
+.row-contact .inst-info a p, .row-contact .email-info a p, .row-contact .phone-info a p {
+    margin: auto 0 auto 13px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25.7763px;
+    line-height: 150%;
+    text-decoration: none;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.inst-info a:hover p, .inst-info a:hover path {
+    color: #FFD31F;
+    fill: #FFD31F;
+}
+
+.phone-info a:hover p, .phone-info a:hover path {
+    color: #FFD31F;
+    fill: #FFD31F;
+}
+
+.email-info a:hover path, .email-info a:hover p {
+    color: #FFD31F;
+    stroke: #FFD31F;
+}
+
+.contact-page-container .flex .right {
+    margin: auto 0 auto auto;
+}
+
+@media screen and (max-width: 1400px) {
+    .contact-page-container {
+        margin: 60px 20px 12px 20px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .contact-page-container .flex {
+        display: block;
+    }
+    .contact-footer-container {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .contact-footer-container .right {
+        margin-left: auto;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .row-contact {
+        display: block;
+    }
+    .contact-page-container .contact-header p {
+        margin-bottom: 20px;
+    }
+    .contact-page-container .contact-second-header p {
+        font-size: 18px;
+    }
+    .contact-page-container .contact-description p {
+        font-size: 16px;
+    }
+    .contact-page-container .contact-second-header, .contact-page-container .time, .contact-page-container .phone {
+        font-size: 18px;
+    }
+    .contact-page-container .contact-description p {
+        margin-bottom: 20px;
+    }
+    .contact-footer-container .right {
+        margin-left: auto;
+    }
+    .row-contact {
+        margin-bottom: 20px;
+    }
+    .row-contact .inst-info, .row-contact .email-info {
+        margin-bottom: 10px;
+    }
+}
